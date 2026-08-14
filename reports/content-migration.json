@@ -1,20 +1,21 @@
 {
   "summary": {
     "main_namespace_pages": 278,
-    "markdown_pages": 257,
+    "markdown_pages": 254,
     "redirects": 21,
+    "excluded_technical_pages": 3,
     "empty_markdown_pages": 7,
-    "navigation_templates_removed": 146,
-    "headings": 1804,
+    "navigation_templates_removed": 145,
+    "headings": 1802,
     "internal_links": 707,
     "external_links": 445,
-    "wikitables_converted": 1545,
+    "wikitables_converted": 1543,
     "unterminated_wikitables": 0,
     "orphan_table_closers_removed": 1,
     "unconverted_templates": 0,
     "unconverted_wikitables": 0,
     "replacement_characters": 0,
-    "images_rewritten": 2876,
+    "images_rewritten": 2875,
     "images_missing": 3
   },
   "redirects": [
@@ -164,6 +165,26 @@
       "from_slug": "uf-du-dragon-l",
       "to_title": "Oeuf du Dragon (L')",
       "to_slug": "oeuf-du-dragon-l"
+    }
+  ],
+  "excluded_pages": [
+    {
+      "page_id": 41,
+      "title": "Code d'une Fiche de Fanzine",
+      "slug": "code-d-une-fiche-de-fanzine",
+      "reason": "technical_page_excluded_from_public_site"
+    },
+    {
+      "page_id": 40,
+      "title": "Code d'une Fiche de Numéro de Fanzine",
+      "slug": "code-d-une-fiche-de-numero-de-fanzine",
+      "reason": "technical_page_excluded_from_public_site"
+    },
+    {
+      "page_id": 426,
+      "title": "Code HTML à récupérer",
+      "slug": "code-html-a-recuperer",
+      "reason": "technical_page_excluded_from_public_site"
     }
   ],
   "pages": [
@@ -1310,57 +1331,6 @@
       "internal_links": 0,
       "external_links": 0,
       "wikitables_converted": 1,
-      "unterminated_wikitables": 0,
-      "orphan_table_closers_removed": 0,
-      "unconverted_templates": 0,
-      "unconverted_wikitables": 0,
-      "replacement_characters": 0
-    },
-    {
-      "page_id": 41,
-      "title": "Code d'une Fiche de Fanzine",
-      "destination": "src/content/docs/fanzines/code-d-une-fiche-de-fanzine.md",
-      "source_length": 1432,
-      "output_length": 1006,
-      "navigation_templates_removed": 1,
-      "headings": 1,
-      "internal_links": 0,
-      "external_links": 0,
-      "wikitables_converted": 1,
-      "unterminated_wikitables": 0,
-      "orphan_table_closers_removed": 0,
-      "unconverted_templates": 0,
-      "unconverted_wikitables": 0,
-      "replacement_characters": 0
-    },
-    {
-      "page_id": 40,
-      "title": "Code d'une Fiche de Numéro de Fanzine",
-      "destination": "src/content/docs/fanzines/code-d-une-fiche-de-numero-de-fanzine.md",
-      "source_length": 2444,
-      "output_length": 1463,
-      "navigation_templates_removed": 0,
-      "headings": 1,
-      "internal_links": 0,
-      "external_links": 0,
-      "wikitables_converted": 1,
-      "unterminated_wikitables": 0,
-      "orphan_table_closers_removed": 0,
-      "unconverted_templates": 0,
-      "unconverted_wikitables": 0,
-      "replacement_characters": 0
-    },
-    {
-      "page_id": 426,
-      "title": "Code HTML à récupérer",
-      "destination": "src/content/docs/fanzines/code-html-a-recuperer.md",
-      "source_length": 730,
-      "output_length": 717,
-      "images_rewritten": 1,
-      "navigation_templates_removed": 0,
-      "internal_links": 0,
-      "external_links": 0,
-      "wikitables_converted": 0,
       "unterminated_wikitables": 0,
       "orphan_table_closers_removed": 0,
       "unconverted_templates": 0,
@@ -3187,7 +3157,7 @@
       "title": "Page d'Accueil",
       "destination": "src/content/docs/fanzines/page-d-accueil.md",
       "source_length": 14536,
-      "output_length": 12357,
+      "output_length": 12248,
       "images_rewritten": 3,
       "navigation_templates_removed": 0,
       "headings": 16,

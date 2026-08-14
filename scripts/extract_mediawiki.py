@@ -30,6 +30,15 @@ REDIRECT_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Pages de travail de l'ancien wiki supprimées du site public. Elles restent
+# présentes dans le dump source ignoré par Git, mais ne doivent pas être
+# recréées lors d'une nouvelle extraction.
+EXCLUDED_PAGE_TITLES = {
+    "Code HTML à récupérer",
+    "Code d'une Fiche de Numéro de Fanzine",
+    "Code d'une Fiche de Fanzine",
+}
+
 
 def sql_fields(line: bytes) -> list[bytes]:
     value = line.strip().rstrip(b",;")[1:-1]
@@ -144,6 +153,9 @@ def convert_internal_link(raw: str, known_titles: dict[str, str]) -> str:
     parts = raw.split("|", 1)
     target = parts[0].strip()
     label = parts[1].strip() if len(parts) == 2 else target.replace("_", " ")
+    normalized_target = target.partition("#")[0].replace("_", " ")
+    if normalized_target in EXCLUDED_PAGE_TITLES:
+        return label
     if target.lower().startswith(("category:", "catégorie:")):
         return ""
     if target.lower().startswith(("file:", "fichier:", "image:")):
@@ -344,7 +356,19 @@ def extract(sql_path: Path, manifest_path: Path, output_dir: Path, report_path: 
     page_reports: list[dict] = []
     totals = Counter()
     written = 0
+    excluded_pages: list[dict] = []
     for page in sorted(pages.values(), key=lambda item: item["title"].casefold()):
+        if page["title"] in EXCLUDED_PAGE_TITLES:
+            excluded_pages.append(
+                {
+                    "page_id": page["page_id"],
+                    "title": page["title"],
+                    "slug": slug(page["title"]),
+                    "reason": "technical_page_excluded_from_public_site",
+                }
+            )
+            continue
+
         revision = revisions.get(page["latest_revision"])
         raw_text = texts.get(revision["text_id"], "") if revision else ""
         redirect = REDIRECT_RE.match(raw_text)
@@ -382,10 +406,12 @@ def extract(sql_path: Path, manifest_path: Path, output_dir: Path, report_path: 
             "main_namespace_pages": len(pages),
             "markdown_pages": written,
             "redirects": len(redirects),
+            "excluded_technical_pages": len(excluded_pages),
             "empty_markdown_pages": sum(page["output_length"] <= 1 for page in page_reports),
             **totals,
         },
         "redirects": redirects,
+        "excluded_pages": excluded_pages,
         "pages": page_reports,
     }
     report_path.parent.mkdir(parents=True, exist_ok=True)

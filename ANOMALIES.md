@@ -13,17 +13,18 @@ Les rapports exhaustifs et lisibles par une machine sont disponibles dans :
 | Élément | Résultat |
 | --- | ---: |
 | Pages de l’espace principal analysées | 278 |
-| Pages Markdown produites | 257 |
+| Pages Markdown produites | 254 |
 | Redirections identifiées | 21 |
+| Pages techniques explicitement exclues | 3 |
 | Pages vides | 7 |
 | Fichiers image sources | 1 495 |
 | Images classées par publication | 1 378 |
 | Images partagées | 10 |
 | Images restant à classer | 107 |
-| Références d’images réécrites | 2 876 |
+| Références d'images réécrites | 2 875 |
 | Références d’images manquantes | 3 occurrences, 2 fichiers |
 | Groupes de doublons binaires | 6 |
-| Tableaux MediaWiki convertis en Markdown | 1 545 |
+| Tableaux MediaWiki convertis en Markdown | 1 543 |
 | Fermetures de tableau orphelines supprimées | 1 |
 
 ## Fichiers image manquants
@@ -55,9 +56,76 @@ aucun contenu exploitable :
 Elles ont été conservées sous forme de fichiers Markdown avec leurs
 métadonnées historiques.
 
+## Pages techniques de l'ancien wiki
+
+L'inventaire éditorial a identifié **35 pages techniques ou administratives**
+dans l'espace principal du MediaWiki. Elles ne décrivent pas des fanzines et
+ne devraient donc pas apparaître dans le catalogue, la recherche, la
+navigation séquentielle ou le sitemap.
+
+Trois pages de code obsolète ont été supprimées du site et explicitement
+exclues de `scripts/extract_mediawiki.py`, afin qu'une nouvelle migration ne
+les recrée pas :
+
+- `Code HTML à récupérer` ;
+- `Code d'une Fiche de Numéro de Fanzine` ;
+- `Code d'une Fiche de Fanzine`.
+
+Les **32 pages techniques restantes** sont encore publiées en attendant une
+décision éditoriale. Inventaire complet par fonction :
+
+### Modèle de fiche restant
+
+- `Code Alternatif d'une Fiche de Numéro de Fanzine`
+
+### Aide à la saisie des champs
+
+- `Auteur`
+- `Code ISSN`
+- `Date de parution`
+- `Début parution`
+- `Fin parution`
+- `Format`
+- `Impression`
+- `Jeu`
+- `Langue`
+- `Nombre total de numéros`
+- `Numéro`
+- `Page`
+- `Pages`
+- `Périodicité`
+- `Prix (Détails)`
+- `Prix (Généralités)`
+- `Série`
+- `Site web (Détails)`
+- `Thème / Jeu(x)`
+- `Titre de l'article`
+- `Titre (Détails)`
+- `Titre (Généralités)`
+- `Type d'article`
+- `Type de numéro`
+
+### Documentation d'édition et éléments d'interface
+
+- `Couverture (Détails)`
+- `Couverture (Généralités)`
+- `Logos`
+- `Prérequis (Détails)`
+- `Prérequis (Généralités)`
+- `Prévisualisation des Fiches et comment les remplir`
+
+### Ancienne navigation
+
+- `Page d'Accueil`
+
+La page `Dé à π faces (Le)`, également absente des index alphabétiques de
+l'ancien wiki, a été contrôlée séparément : il s'agit bien d'une fiche de
+fanzine et non d'une page technique. Elle doit être conservée et ajoutée à
+l'index alphabétique lors d'une correction ultérieure.
+
 ## Conversion des tableaux MediaWiki
 
-Les 1 545 tableaux écrits avec la syntaxe `{| ... |}` ont été convertis en
+Les 1 543 tableaux écrits avec la syntaxe `{| ... |}` ont été convertis en
 tableaux Markdown. Ils contiennent une grande partie des fiches de numéros et
 des sommaires. Le contenu, les liens et les images sont conservés, mais les
 attributs purement visuels de MediaWiki (`width`, couleurs et `colspan`) ont été

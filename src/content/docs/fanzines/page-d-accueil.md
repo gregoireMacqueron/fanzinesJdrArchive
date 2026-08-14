@@ -84,7 +84,7 @@ Un [formulaire de saisie](http://fanzines.jdr.wiki.free.fr/pages/formulaire.html
 *Le code suivant est à copier dans votre presse-papiers et à coller dans votre page (les points d'interrogation seront à remplacer par vos données) :*
 
 ----
-- [Code d'une Fiche de Fanzine](../code-d-une-fiche-de-fanzine/)
+- Code d'une Fiche de Fanzine
 ----
 
 *Résultat que vous allez obtenir (voir ci-dessous)…*
@@ -103,7 +103,7 @@ Un [formulaire de saisie](http://fanzines.jdr.wiki.free.fr/pages/formulaire.html
 *Le code suivant est à copier dans votre presse-papiers  et à coller dans votre page (les points d'interrogation seront à remplacer par vos données) :*
 
 ----
-- [Code d'une Fiche de Numéro de Fanzine](../code-d-une-fiche-de-numero-de-fanzine/)
+- Code d'une Fiche de Numéro de Fanzine
 ----
 *Résultat que vous allez obtenir (voir ci-dessous)…*
 
@@ -147,7 +147,7 @@ Un [formulaire de saisie](http://fanzines.jdr.wiki.free.fr/pages/formulaire.html
 
 ----
 
-*[Code HTML à récupérer](../code-html-a-recuperer/)
+*Code HTML à récupérer
 
 ----
 
