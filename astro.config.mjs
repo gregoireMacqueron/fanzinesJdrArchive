@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+  site: 'https://fanzinesjdr.vercel.app',
   integrations: [
     starlight({
       title: 'Fanzines JDR',
