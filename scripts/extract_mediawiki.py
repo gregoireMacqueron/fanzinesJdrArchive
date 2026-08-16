@@ -30,13 +30,45 @@ REDIRECT_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Pages de travail de l'ancien wiki supprimées du site public. Elles restent
-# présentes dans le dump source ignoré par Git, mais ne doivent pas être
-# recréées lors d'une nouvelle extraction.
+# Pages techniques de l'ancien wiki remplacées par la page consolidée
+# `normes-edition.md`. Elles restent dans le dump source ignoré par Git, mais ne
+# doivent pas être recréées lors d'une nouvelle extraction.
 EXCLUDED_PAGE_TITLES = {
+    "Auteur",
+    "Code Alternatif d'une Fiche de Numéro de Fanzine",
     "Code HTML à récupérer",
+    "Code ISSN",
     "Code d'une Fiche de Numéro de Fanzine",
     "Code d'une Fiche de Fanzine",
+    "Couverture (Détails)",
+    "Couverture (Généralités)",
+    "Date de parution",
+    "Début parution",
+    "Fin parution",
+    "Format",
+    "Impression",
+    "Jeu",
+    "Langue",
+    "Logos",
+    "Nombre total de numéros",
+    "Numéro",
+    "Page",
+    "Page d'Accueil",
+    "Pages",
+    "Prérequis (Détails)",
+    "Prérequis (Généralités)",
+    "Prix (Détails)",
+    "Prix (Généralités)",
+    "Prévisualisation des Fiches et comment les remplir",
+    "Périodicité",
+    "Série",
+    "Site web (Détails)",
+    "Thème / Jeu(x)",
+    "Titre (Détails)",
+    "Titre (Généralités)",
+    "Titre de l'article",
+    "Type d'article",
+    "Type de numéro",
 }
 
 

@@ -23,6 +23,7 @@ export default defineConfig({
       ],
       sidebar: [
         { label: 'Accueil', link: '/' },
+        { label: 'Normes d’édition', link: '/normes-edition/' },
         {
           label: 'Fanzines',
           items: [{ autogenerate: { directory: 'fanzines' } }],

@@ -15,7 +15,7 @@ Les rapports exhaustifs et lisibles par une machine sont disponibles dans :
 | Pages de l’espace principal analysées | 278 |
 | Pages Markdown produites | 254 |
 | Redirections identifiées | 21 |
-| Pages techniques explicitement exclues | 3 |
+| Pages techniques explicitement exclues | 35 |
 | Pages vides | 7 |
 | Fichiers image sources | 1 495 |
 | Images classées par publication | 1 378 |
@@ -59,23 +59,21 @@ métadonnées historiques.
 ## Pages techniques de l'ancien wiki
 
 L'inventaire éditorial a identifié **35 pages techniques ou administratives**
-dans l'espace principal du MediaWiki. Elles ne décrivent pas des fanzines et
-ne devraient donc pas apparaître dans le catalogue, la recherche, la
-navigation séquentielle ou le sitemap.
+dans l'espace principal du MediaWiki. Elles ont été retirées du catalogue et
+explicitement exclues de `scripts/extract_mediawiki.py`, afin qu'une nouvelle
+migration ne les recrée pas.
 
-Trois pages de code obsolète ont été supprimées du site et explicitement
-exclues de `scripts/extract_mediawiki.py`, afin qu'une nouvelle migration ne
-les recrée pas :
+Leur contenu encore pertinent a été réécrit et regroupé dans la page
+[`Normes d’édition`](src/content/docs/normes-edition.md). Les procédures et
+éléments d’interface propres à MediaWiki ont été abandonnés.
 
-- `Code HTML à récupérer` ;
-- `Code d'une Fiche de Numéro de Fanzine` ;
-- `Code d'une Fiche de Fanzine`.
+Inventaire des pages retirées par fonction :
 
-Les **32 pages techniques restantes** sont encore publiées en attendant une
-décision éditoriale. Inventaire complet par fonction :
+### Modèles de fiche et code
 
-### Modèle de fiche restant
-
+- `Code HTML à récupérer`
+- `Code d'une Fiche de Numéro de Fanzine`
+- `Code d'une Fiche de Fanzine`
 - `Code Alternatif d'une Fiche de Numéro de Fanzine`
 
 ### Aide à la saisie des champs
