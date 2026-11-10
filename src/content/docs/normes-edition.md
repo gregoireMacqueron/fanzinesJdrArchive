@@ -82,6 +82,18 @@ Exemple minimal :
 | **Adresse physique** | Adresse publiée dans ce numéro. |
 | **Prix** | Prix de ce numéro, avec sa devise. |
 
+Exemple d’en-tête :
+
+```md
+## Numéro 1
+
+| Titre : Exemple | **Couverture :** ![Couverture du numéro 1 d’Exemple](/images/fanzines/exemple/exemple-01.jpg) | | | |
+| --- | --- | --- | --- | --- |
+| **Numéro :** 1 | **Type de numéro :** normal | **Série :** n/a | **Date de parution :** mars 1992 | **Pages :** ? |
+| **Responsable :** ? | **Éditeur :** ? | **Rédac’chef :** ? | | |
+| **Site web :** n/a | **Adresse physique :** ? | **Prix :** ? | | |
+```
+
 ### Sommaire
 
 Utilisez de préférence le tableau détaillé lorsque les informations sont
