@@ -112,3 +112,9 @@ npm run build
 
 La version statique est générée dans le dossier `dist/`. Sur Vercel, la commande
 de construction est détectée à partir de la configuration Astro du projet.
+
+## Remerciements
+
+Merci à David, créateur du **Fanzines JdR Wiki**, pour m'avoir autorisé à
+reprendre le contenu du wiki et pour m'avoir confié la sauvegarde de la base
+MediaWiki d'origine. Sans lui, cette archive n'existerait pas.
