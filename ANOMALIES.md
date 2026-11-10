@@ -1,6 +1,6 @@
 # Manquants, erreurs et anomalies de migration
 
-État actualisé le 17 août 2026. Les statistiques de migration ont été établies
+État actualisé le 10 novembre 2026. Les statistiques de migration ont été établies
 le 14 août 2026 à partir du dump MediaWiki et du dossier d’images disponibles
 dans `sources/`. Les contrôles portant sur le dépôt, le catalogue et les
 dépendances correspondent à l’état actuel du projet.
@@ -241,17 +241,15 @@ remplacées par des composants Starlight.
 
 ## Dépendances du site
 
-Le site construit sous Node.js 24 avec Astro 6.4.8 et Starlight 0.40.0. Un
-`npm audit` exécuté le 17 août 2026 signale toujours six dépendances
-vulnérables : deux de sévérité élevée, trois modérées et une faible. Les paquets
-concernés sont Astro, Starlight, MDX, Astro Expressive Code, esbuild et sharp.
+Le site construit sous Node.js 24 avec Astro 7.4.9 et Starlight 0.41.7. La
+montée de version depuis Astro 6.4.8 et Starlight 0.40.0 a été effectuée le
+10 novembre 2026 : la construction produit les 226 pages attendues et
+`npm audit` ne signale plus aucune vulnérabilité.
 
-Les correctifs proposés par npm nécessitent actuellement une montée de version
-majeure vers Astro 7.2.2 et Starlight 0.41.7. Cette mise à niveau doit être
-testée avec la construction du site avant d'être appliquée. Le site étant
-entièrement statique et son contenu local, l'exposition à certaines
-vulnérabilités d'exécution est limitée, mais cette dette doit être résolue avant
-de considérer la pile technique comme stabilisée.
+L'échec précédemment rencontré avec Vite 8 sous Node.js 24/Windows (chargement
+CommonJS de `source-map-js`) ne se reproduit plus. Astro 7.2.2, d'abord visé,
+a été écarté au profit de 7.4.9 en raison d'avis de sécurité critiques publiés
+depuis.
 
 ## Sécurité du dump original
 
