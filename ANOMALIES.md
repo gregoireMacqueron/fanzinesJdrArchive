@@ -241,7 +241,7 @@ remplacées par des composants Starlight.
 
 ## Dépendances du site
 
-Le site construit sous Node.js 24 avec Astro 7.4.9 et Starlight 0.41.7. La
+Le site construit sous Node.js 24 avec Astro 7.4.10 et Starlight 0.42.10. La
 montée de version depuis Astro 6.4.8 et Starlight 0.40.0 a été effectuée le
 10 novembre 2026 : la construction produit les 226 pages attendues et
 `npm audit` ne signale plus aucune vulnérabilité.
