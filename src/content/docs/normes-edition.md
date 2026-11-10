@@ -146,6 +146,61 @@ ajoutée après une barre oblique, par exemple `Aide de jeu / Bestiaire`.
 - Conservez un lien ancien utile même s’il est hors ligne, mais accompagnez-le
   si possible d’une archive pérenne.
 
+## Créer une nouvelle fiche
+
+### 1. Nommer le fichier
+
+Créez un fichier Markdown dans `src/content/docs/fanzines/`. Son nom donne
+l’adresse de la page : en minuscules, sans accents ni ponctuation, les mots
+séparés par des tirets et l’article rejeté à la fin.
+
+| Titre dans l’index | Fichier |
+| --- | --- |
+| Antre du Dragon (L’) | `antre-du-dragon-l.md` |
+| Dé Calé (Le) | `de-cale-le.md` |
+| Zine Zine | `zine-zine.md` |
+
+### 2. Renseigner l’en-tête du fichier
+
+Le fichier commence par un bloc d’en-tête. Seuls `title` et `description` sont
+nécessaires ; le titre suit la forme de l’index, avec l’article entre
+parenthèses à la fin.
+
+```md
+---
+title: "Antre du Dragon (L')"
+description: "Fiche du fanzine L'Antre du Dragon."
+---
+```
+
+Les champs `legacy_*` et `source_format` présents dans les fiches existantes
+sont propres à la migration de l’ancien wiki : ne les ajoutez pas.
+
+### 3. Rédiger la fiche
+
+Ajoutez ensuite la section `## Généralités`, puis une section par numéro, en
+reprenant les exemples des parties
+[Fiche générale d’une publication](#fiche-générale-dune-publication) et
+[Fiche d’un numéro](#fiche-dun-numéro). Placez les images dans
+`public/images/fanzines/<nom-du-fichier>/`, par exemple
+`public/images/fanzines/antre-du-dragon-l/`.
+
+### 4. Ajouter la fiche à l’index alphabétique
+
+La barre latérale est générée automatiquement, mais les pages d’index
+(`0-9.md`, `a-d.md`, `e-h.md`, `i-l.md`, `m-p.md`, `q-t.md`, `u-w.md` et
+`x-z.md`) sont tenues à la main. Ajoutez le lien sous la bonne lettre, à sa
+place dans l’ordre alphabétique :
+
+```md
+[Antre du Dragon (L')](../antre-du-dragon-l/)
+```
+
+### 5. Vérifier le rendu
+
+Si vous travaillez localement, lancez `npm run dev` et contrôlez la fiche, ses
+images et le lien depuis l’index avant de proposer la modification.
+
 ## Proposer une modification
 
 Modifiez le fichier Markdown concerné dans le
