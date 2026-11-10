@@ -1,7 +1,9 @@
 # Manquants, erreurs et anomalies de migration
 
-État établi le 14 août 2026 à partir du dump MediaWiki et du dossier d’images
-disponibles dans `sources/`.
+État actualisé le 17 août 2026. Les statistiques de migration ont été établies
+le 14 août 2026 à partir du dump MediaWiki et du dossier d’images disponibles
+dans `sources/`. Les contrôles portant sur le dépôt, le catalogue et les
+dépendances correspondent à l’état actuel du projet.
 
 Les rapports exhaustifs et lisibles par une machine sont disponibles dans :
 
@@ -13,7 +15,8 @@ Les rapports exhaustifs et lisibles par une machine sont disponibles dans :
 | Élément | Résultat |
 | --- | ---: |
 | Pages de l’espace principal analysées | 278 |
-| Pages Markdown produites | 254 |
+| Pages Markdown produites par la migration initiale | 254 |
+| Fichiers Markdown présents dans le catalogue actuel | 223 (214 fiches et 9 pages de navigation) |
 | Redirections identifiées | 21 |
 | Pages techniques explicitement exclues | 35 |
 | Pages vides | 7 |
@@ -116,10 +119,11 @@ Inventaire des pages retirées par fonction :
 
 - `Page d'Accueil`
 
-La page `Dé à π faces (Le)`, également absente des index alphabétiques de
-l'ancien wiki, a été contrôlée séparément : il s'agit bien d'une fiche de
-fanzine et non d'une page technique. Elle doit être conservée et ajoutée à
-l'index alphabétique lors d'une correction ultérieure.
+La page `Dé à π faces (Le)`, absente des index alphabétiques de l'ancien wiki,
+a été contrôlée séparément : il s'agit bien d'une fiche de fanzine et non d'une
+page technique. Elle est conservée et a été ajoutée à l'index alphabétique.
+Le lien initialement généré dans `a-d.md` était mal encodé
+(`de-a-cf-80-faces-le`) ; il pointe désormais vers `de-a-faces-le`.
 
 ## Conversion des tableaux MediaWiki
 
@@ -237,16 +241,17 @@ remplacées par des composants Starlight.
 
 ## Dépendances du site
 
-Le site construit correctement sous Node.js 24 avec Astro 6.4.8 et Starlight
-0.40.0. Cependant, `npm audit` signale six vulnérabilités transitives, dont des
-correctifs disponibles seulement avec Astro 7 et Starlight 0.41 au moment de
-l’analyse.
+Le site construit sous Node.js 24 avec Astro 6.4.8 et Starlight 0.40.0. Un
+`npm audit` exécuté le 17 août 2026 signale toujours six dépendances
+vulnérables : deux de sévérité élevée, trois modérées et une faible. Les paquets
+concernés sont Astro, Starlight, MDX, Astro Expressive Code, esbuild et sharp.
 
-La montée vers Astro 7 a été testée, mais son chargeur Vite 8 échoue actuellement
-sous Node.js 24/Windows lors du chargement CommonJS de `source-map-js`. Le site
-étant entièrement statique et son contenu local, l’exposition aux vulnérabilités
-d’exécution est limitée, mais cette dette doit être résolue avant de considérer
-la pile technique comme stabilisée.
+Les correctifs proposés par npm nécessitent actuellement une montée de version
+majeure vers Astro 7.2.2 et Starlight 0.41.7. Cette mise à niveau doit être
+testée avec la construction du site avant d'être appliquée. Le site étant
+entièrement statique et son contenu local, l'exposition à certaines
+vulnérabilités d'exécution est limitée, mais cette dette doit être résolue avant
+de considérer la pile technique comme stabilisée.
 
 ## Sécurité du dump original
 

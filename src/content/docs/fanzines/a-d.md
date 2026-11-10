@@ -229,7 +229,7 @@ source_format: "mediawiki"
 
 [Death Star](../death-star/)
 
-[Dé à π faces (Le)](../de-a-cf-80-faces-le/)
+[Dé à π faces (Le)](../de-a-faces-le/)
 
 [Dé Calé (Le)](../de-cale-le/)
 
