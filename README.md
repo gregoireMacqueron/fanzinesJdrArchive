@@ -2,7 +2,7 @@
 
 Archives des revues, fanzines et e-zines francophones consacrés au jeu de rôle.
 
-Le projet reprend le fonds de l'ancien **Fanzines JdR Wiki** sous la forme d'un
+Le projet reprend le fonds de l'ancien **Fanzines JdR Wiki** (créé en mars 2016) sous la forme d'un
 site statique, durable et versionné publiquement. Il rassemble notamment les
 titres, périodes de parution, équipes, formats, couvertures et sommaires des
 publications recensées.
