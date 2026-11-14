@@ -110,12 +110,14 @@ Toutes les couvertures des 10 numéros de Runes sont disponibles à l'affichage 
 | **Site web :** http://www.runes-le-magazine.com/runes-03/ | **Adresse :** ? | **Prix :** ? |  |  |
 | Sommaire |  |  |  |  |
 | Titre de l’article | Page | Type d’article |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
+| Édito (Jean-Marc LÉGER) | Page 2 | éditorial |  |  |
+| Agonie surréelle d'un être humain standard pour une cause douteuse dans un monde approximatif (Patrick BONY) | Page 3-4 | nouvelle |  |  |
+| Pyramide blues... (Hocine SOLTANE) | Page 5-15 | bande dessinée |  |  |
+| Shorty Mac Shane (Hervé MOHANNIC) | Page 16-17 | nouvelle |  |  |
+| Critiques (Collectif) | Page 18-19 | critique(s) |  |  |
+| Maximum Overdeath (Jean-Bernard OMS) | Page 20-21 | nouvelle |  |  |
+| (sans titre) (Éric KOOSINLIN) | Page 22-29 | bande dessinée |  |  |
+| Strange (Markus LEICHT) | Page 30-35 | index |  |  |
 
 ### Numéro 4
 | Titre : Runes (détails du numéro 4)<br>![Illustration de Runes](/images/partagees/fiche-c-est-a-vous.png) | **Couverture :** ![Illustration de Runes](/images/fanzines/runes/runes-04.jpg) |  |  |  |
