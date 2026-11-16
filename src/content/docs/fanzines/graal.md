@@ -234,19 +234,32 @@ Voir aussi [Farfadet (Le)](../farfadet-le/)
 
 ### Numéro 14
 
-| Titre : Graal (détail du numéro 14)<br>![Illustration de Graal](/images/partagees/fiche-c-est-a-vous.png) | **Couverture :** ![Illustration de Graal](/images/fanzines/graal/graal-magazine-14.jpg) |  |  |  |
+| Titre : Graal (détail du numéro 14)<br>![Illustration de Graal](/images/partagees/fiche-complete.png) | **Couverture :** ![Couverture du numéro 14 de Graal](/images/fanzines/graal/graal-magazine-14.jpg) |  |  |  |
 | --- | --- | --- | --- | --- |
-| **Numéro :** n°14 | **Type de numéro :** ? | **Série :** ? | **Date de parution :** ? | **Pages :** ? |
-| **Responsable :** ? | **Rédac’chef :** ? | **Éditeur :** ? |  |  |
-| **Site web :** ? | **Adresse :** ? | **Prix :** ? |  |  |
-| Sommaire |  |  |  |  |
-| Titre de l’article | Page | Type d’article |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
+| **Numéro :** 14 | **Type de numéro :** normal | **Série :** n/a | **Date de parution :** février 1989 | **Pages :** 60 (couvertures comprises) |
+| **Responsable :** Alain Richard | **Rédac’chef :** Serge Olivier | **Éditeur :** Socomer Éditions S.A.R.L. |  |  |
+| **Site web :** n/a | **Adresse :** 35, rue Simart - 75018 Paris | **Prix :** 25,00 F (175 FB) |  |  |
+
+#### Sommaire
+
+| Titre de l’article | Jeu | Auteur | Page | Type d’article |
+| --- | --- | --- | --- | --- |
+| Échos | n/a | Everybody | Page 4 | Actualité |
+| Essai : Multimondes | Multimondes | Xavier Blanchot | Page 10 | Critique |
+| Pacific War | Pacific War | Jean-Louis Beaufils | Page 12 | Critique / Wargame |
+| Russian Front - Fortress Europa | Russian Front, Fortress Europa | Omar Jeddaoui | Page 14 | Critique / Wargame |
+| Raid éclair | Air Force | Nicolas Loubier | Page 18 | Scénario / Wargame |
+| Rêve de plomb : Torture | n/a | Michel Gauthey (peinture de figurines Remark), Poly et Styrène (décor) | Page 19 | Figurines |
+| L’Art du pillage | Cry Havoc, Siège | Nicolas Loubier | Page 21 | Scénario / Wargame |
+| Déclaration des droits du jeu et du joueur | Aux armes citoyens | ? | Page 23 | Actualité / Extrait |
+| La Chaîne de vérité | AD&D, L’Appel de Cthulhu | A. Lang et S. Truffert | Page 24 | Scénario |
+| La Magie des fluides | Jeux de rôle médiévaux | Stéphane Bura | Page 30 | Aide de jeu / Règles |
+| Parchemins exhumés : Les Feuilles d’Illistar | n/a | A. Aubard et A. Buhler | Page 38 | Univers / Légende |
+| Concours de circonstances | Warhammer | Polystyrène | Page 43 | Scénario |
+| Les Aigles de Kadar IV | Star Wars | Bernard Lebelle | Page 50 | Aide de jeu |
+| Les Menus d’auberge | Médiéval-fantastique | Francis Pacherie | Page 56 | Aide de jeu |
+
+Source : sommaire et ours de la page 3 du numéro.
 
 ### Numéro 15
 
