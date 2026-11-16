@@ -315,19 +315,23 @@ source_format: "mediawiki"
 
 ### Numéro 18
 
-| Titre : Tatou (détail du numéro 18)<br>![Illustration de Tatou](/images/partagees/fiche-c-est-a-vous.png) | **Couverture :** ![Illustration de Tatou](/images/fanzines/tatou/tatou-18-1.png) |  |  |  |
+| Titre : Tatou (détail du numéro 18)<br>![Illustration de Tatou](/images/partagees/fiche-complete.png) | **Couverture :** ![Couverture du numéro 18 de Tatou](/images/fanzines/tatou/tatou-18-1.png) |  |  |  |
 | --- | --- | --- | --- | --- |
-| **Numéro :** n°18 | **Type de numéro :** ? | **Série :** ? | **Date de parution :** ? | **Pages :** ? |
-| **Responsable :** ? | **Rédac’chef :** ? | **Éditeur :** ? |  |  |
-| **Site web :** ? | **Adresse :** ? | **Prix :** ? |  |  |
-| Sommaire |  |  |  |  |
-| Titre de l’article | Page | Type d’article |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
+| **Numéro :** 18 | **Type de numéro :** normal | **Série :** n/a | **Date de parution :** avril-mai 1994 | **Pages :** 48 (couvertures comprises) |
+| **Responsable :** ? | **Rédac’chef :** Éric Simon | **Éditeur :** Oriflam SARL |  |  |
+| **Site web :** n/a | **Adresse :** 132, rue de Marly - 57158 Montigny-lès-Metz | **Prix :** 40 F |  |  |
+
+#### Sommaire
+
+| Titre de l’article | Jeu | Auteur | Page | Type d’article |
+| --- | --- | --- | --- | --- |
+| Sept Drogues gloranthiennes | RuneQuest | Mark Holsworth et Michael O’Brien (ill. Jean Luc Sala) | Page 4 | Aide de jeu |
+| Destriers et Coursiers | Tous JdR | Pierre Léonard (ill. Jean Luc Sala) | Page 10 | Aide de jeu / Encyclopédie |
+| L’Éveil d’Iréna | Chill | Pierre Henri Pevel (ill. Bernard Bittler) | Page 17 | Scénario |
+| Le Jeu du Destin | Elric | Philip Benz (ill. Angelo Montanini, Eric Hotz) | Page 29 | Aide de jeu / Règles |
+| Remplacement corporel intégral | Cyberpunk | Mike Pondsmith et Scott Taylor (ill. Harrison Fong) | Page 33 | Aide de jeu / Équipement |
+
+Source : sommaire et ours de la page 2 du numéro. Couverture de Kelly.
 
 ### Numéro 19
 
@@ -443,19 +447,25 @@ source_format: "mediawiki"
 
 ### Numéro 26
 
-| Titre : Tatou (détail du numéro 26)<br>![Illustration de Tatou](/images/partagees/fiche-c-est-a-vous.png) | **Couverture :** ![Illustration de Tatou](/images/fanzines/tatou/tatou-26-1.png) |  |  |  |
+| Titre : Tatou (détail du numéro 26)<br>![Illustration de Tatou](/images/partagees/fiche-complete.png) | **Couverture :** ![Couverture du numéro 26 de Tatou](/images/fanzines/tatou/tatou-26-1.png) |  |  |  |
 | --- | --- | --- | --- | --- |
-| **Numéro :** n°26 | **Type de numéro :** ? | **Série :** ? | **Date de parution :** ? | **Pages :** ? |
-| **Responsable :** ? | **Rédac’chef :** ? | **Éditeur :** ? |  |  |
-| **Site web :** ? | **Adresse :** ? | **Prix :** ? |  |  |
-| Sommaire |  |  |  |  |
-| Titre de l’article | Page | Type d’article |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
-| ? | Page ? | ? |  |  |
+| **Numéro :** 26 | **Type de numéro :** normal | **Série :** n/a | **Date de parution :** décembre 1995 - janvier 1996 | **Pages :** 50 (couvertures comprises) |
+| **Responsable :** ? | **Rédac’chef :** Thierry Arnould | **Éditeur :** Oriflam SARL |  |  |
+| **Site web :** n/a | **Adresse :** 132, rue de Marly - 57158 Montigny-lès-Metz | **Prix :** 40 F |  |  |
+
+#### Sommaire
+
+| Titre de l’article | Jeu | Auteur | Page | Type d’article |
+| --- | --- | --- | --- | --- |
+| La Nécromancie | Elric | Pierre Henri Pevel | Page 4 | Aide de jeu / Règles |
+| Une vieille histoire | Elric | Pierre Henri Pevel (ill. Alain Gassner) | Page 8 | Scénario |
+| L’Arme fatale 2020 | Cyberpunk | Gilles Gassner (ill. Alain Gassner) | Page 18 | Aide de jeu / Équipement |
+| Subway | Cyberpunk | Mosquito (ill. Vincent Bailly) | Page 22 | Scénario |
+| Robots et JdR | Mekton Z | Thierry Arnould (ill. Alain Gassner) | Page 29 | Inspiration |
+| Le Crystal des mutations | Hawkmoon | Olivier Durand (ill. Vincent Bailly) | Page 32 | Scénario / Campagne |
+| Le Pouvoir des runes | RuneQuest | David Cheng (ill. Dharkem et Maquin) | Page 40 | Aide de jeu / Règles |
+
+Source : sommaire et ours de la page 2 du numéro. Couverture d’Alain Gassner. Le sommaire indique par erreur la page 9 pour « Une vieille histoire » et la page 33 pour « Le Pouvoir des runes » ; les pages indiquées ici sont celles où commencent les articles. L’ours date le numéro de « décembre - janvier 1995 », la couverture de « décembre - janvier 1996 ».
 
 ### Numéro 27
 
