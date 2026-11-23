@@ -101,6 +101,9 @@ Vous pouvez modifier directement la fiche Markdown concernée dans
 [ouvrir une issue](https://github.com/guillaumejay/fanzinesjdr/issues) avec une
 description de la correction et, si possible, sa source.
 
+Tout ajout de contenu (fiche, sommaire, couverture) doit être signalé dans
+`src/content/docs/nouveautes.md`, sous le mois en cours.
+
 Avant de proposer une modification, consultez les
 [normes d'édition](https://fanzinesjdr.vercel.app/normes-edition/).
 
