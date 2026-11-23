@@ -42,8 +42,8 @@ visitor finds a precise publication fact quickly and can trust and cite it.
 - Zero budget: free hosting (Vercel), no paid service.
 - 223 entry pages migrated automatically; many remain incomplete or keep
   traces of MediaWiki syntax.
-- Undecided: mobile readability of wide tables was not confirmed as a
-  requirement.
+- Desktop first: mobile is secondary; wide tables may scroll horizontally on
+  phones, but must not break.
 
 ## Brand Commitments
 - Name: Fanzines JDR. Tagline: « La mémoire des revues, fanzines et e-zines
